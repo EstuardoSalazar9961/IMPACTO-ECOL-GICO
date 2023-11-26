@@ -9,7 +9,7 @@ package calculoimpactoecologico;
  *
  * @author CompuStore
  */
-public class Bicicleta {
+public class Bicicleta extends ImpactoEcologico {
     private String tipo;
 
     public Bicicleta(String tipo) {

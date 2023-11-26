@@ -9,7 +9,7 @@ package calculoimpactoecologico;
  *
  * @author CompuStore
  */
-public class Edificio {
+public class Edificio extends ImpactoEcologico{
     private String nombre;
     private double consumoEnergetico; // En kilovatios por hora
 

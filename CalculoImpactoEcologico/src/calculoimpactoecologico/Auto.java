@@ -9,7 +9,7 @@ package calculoimpactoecologico;
  *
  * @author CompuStore
  */
-public class Auto {
+public class Auto extends ImpactoEcologico{
     private String modelo;
     private double emisionesCO2; // En toneladas métricas por año
 
